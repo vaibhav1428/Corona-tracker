@@ -1,0 +1,61 @@
+*{
+  margin:0;
+}
+body{
+  background-color:#f5f6fa ;
+  margin-right: 2vw;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_Header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+justify-content: space-between;
+}
+.appLeft{
+  flex: 0.9;
+}
+
+
+.app_status{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+@media(max-width:990px){
+  .app{
+   flex-direction: column;
+   
+  }
+
+
+
+}
+
+.Table{
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  background-color: white;
+  color: #6a5d5d;
+
+}
+
+.Table tr:nth-of-type(odd){
+background-color: #b2ebf2 ;
+}
+.Table tr:nth-of-type(even){
+  background-color: #ddf3f5 ;
+  }
+.Table tr{
+  display: flex;
+  justify-content: space-between;
+}
+.Table td{
+  padding:0.5rem;
+}
